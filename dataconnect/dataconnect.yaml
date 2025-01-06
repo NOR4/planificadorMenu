@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "appSilvia"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "appSilvia-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

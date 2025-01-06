@@ -1,0 +1,527 @@
+{ "platosalimento": {
+  "001": {
+    "id_plato": "001",
+    "alimentos": [
+      { "id_alimento": "028", "cantidad": 400 },
+      { "id_alimento": "023", "cantidad": 300 },
+      { "id_alimento": "031", "cantidad": 200 }
+    ]
+  },
+  "002": {
+     "id_plato": "002",
+    "alimentos": [
+      { "id_alimento": "022", "cantidad": 400 },
+      { "id_alimento": "053", "cantidad": 200 },
+      { "id_alimento": "078", "cantidad": 30 }
+    ]
+  },
+  "003": {
+     "id_plato": "003",
+    "alimentos": [
+      { "id_alimento": "026", "cantidad": 600 },
+      { "id_alimento": "027", "cantidad": 300 },
+      { "id_alimento": "066", "cantidad": 30 },
+      { "id_alimento": "039", "cantidad": 200 },
+      { "id_alimento": "077", "cantidad": 100 }
+    ]
+  },
+  "004": {
+    "id_plato":"004",
+    "alimentos": [
+      { "id_alimento": "023", "cantidad": 400 },
+      { "id_alimento": "024", "cantidad": 300 },
+      { "id_alimento": "025", "cantidad": 100 },
+      { "id_alimento": "066", "cantidad": 30 }
+    ]
+  },
+  "007": {
+    "id_plato":"007",
+    "alimentos": [
+      { "id_alimento": "031", "cantidad": 450 },
+      { "id_alimento": "029", "cantidad": 250 },
+      { "id_alimento": "055", "cantidad": 250 },
+      { "id_alimento": "025", "cantidad": 30 },
+      { "id_alimento": "032", "cantidad": 80 }
+    ]
+  },
+  "008": {
+    "id_plato":"008",
+    "alimentos": [
+      { "id_alimento": "029", "cantidad": 500 },
+      { "id_alimento": "030", "cantidad": 300 },
+      { "id_alimento": "039", "cantidad": 200 },
+      { "id_alimento": "055", "cantidad": 150 },
+      { "id_alimento": "047", "cantidad": 100 }
+    ]
+  },
+  "009": {
+   "id_plato":"009",
+    "alimentos": [
+      { "id_alimento": "026", "cantidad": 250 },
+      { "id_alimento": "039", "cantidad": 200 },
+      { "id_alimento": "007", "cantidad": 200 },
+      { "id_alimento": "035", "cantidad": 150 },
+      { "id_alimento": "056", "cantidad": 200 }
+    ]
+  },
+  "011": {
+    "id_plato":"011",
+    "alimentos": [
+      { "id_alimento": "033", "cantidad": 600 },
+      { "id_alimento": "034", "cantidad": 300 },
+      { "id_alimento": "039", "cantidad": 200 },
+      { "id_alimento": "059", "cantidad": 150 },
+      { "id_alimento": "058", "cantidad": 150 }
+    ]
+  },
+  "012": {
+    "id_plato":"012",
+    "alimentos": [
+      { "id_alimento": "060", "cantidad": 15 },
+      { "id_alimento": "035", "cantidad": 350 },
+      { "id_alimento": "036", "cantidad": 400 },
+      { "id_alimento": "024", "cantidad": 200 },
+      { "id_alimento": "054", "cantidad": 100 },
+      { "id_alimento": "069", "cantidad": 20 }
+    ]
+  },
+  "014": {
+    "id_plato": "014",
+    "alimentos": [
+      { "id_alimento": "044", "cantidad": 700 },
+      { "id_alimento": "038", "cantidad": 150 },
+      { "id_alimento": "039", "cantidad": 150 },
+      { "id_alimento": "066", "cantidad": 40 }
+    ]
+  },
+  "015": {
+    "id_plato": "015",
+    "alimentos": [
+      { "id_alimento": "061", "cantidad": 400 },
+      { "id_alimento": "007", "cantidad": 400 },
+      { "id_alimento": "022", "cantidad": 600 },
+      { "id_alimento": "039", "cantidad": 200 },
+      { "id_alimento": "066", "cantidad": 30 }
+    ]
+  },
+  "016": {
+    "id_plato": "016",
+    "alimentos": [
+      { "id_alimento": "006", "cantidad": 400 },
+      { "id_alimento": "037", "cantidad": 300 },
+      { "id_alimento": "038", "cantidad": 200 },
+      { "id_alimento": "039", "cantidad": 200 },
+      {"id_alimento":  "066", "cantidad":30 }
+    ]
+  },
+ "017": {
+    "id_plato": "017",
+    "alimentos": [
+      { "id_alimento": "006", "cantidad": 400 },
+      { "id_alimento": "037", "cantidad": 300 },
+      { "id_alimento": "038", "cantidad": 200 },
+      { "id_alimento": "039", "cantidad": 200 },
+      {"id_alimento":  "066", "cantidad":30 }
+    ]
+  },
+"018": {
+    "id_plato": "018",
+    "alimentos": [
+      { "id_alimento": "005", "cantidad": 400 },
+      { "id_alimento": "037", "cantidad": 300 },
+      { "id_alimento": "038", "cantidad": 200 },
+      { "id_alimento": "039", "cantidad": 200 },
+      {"id_alimento":  "066", "cantidad":30 }
+    ]
+  },
+"019": {
+    "id_plato": "019",
+    "alimentos": [
+      { "id_alimento": "006", "cantidad": 400 },
+      { "id_alimento": "031", "cantidad": 300 },
+      { "id_alimento": "038", "cantidad": 200 },
+      { "id_alimento": "039", "cantidad": 200 },
+      {"id_alimento":  "066", "cantidad":30 }
+    ]
+  },
+"020": {
+    "id_plato": "020",
+    "alimentos": [
+      { "id_alimento": "005", "cantidad": 600 },
+      { "id_alimento": "037", "cantidad": 200 },
+      { "id_alimento": "041", "cantidad": 200 },
+      { "id_alimento": "039", "cantidad": 200 },
+      {"id_alimento":  "066", "cantidad":30 },
+      {"id_alimento": "040", "cantidad":30},
+      {"id_alimento": "044", "cantidad": 300 }
+    ]
+  },
+"021": {
+    "id_plato": "021",
+    "alimentos": [
+      { "id_alimento": "005", "cantidad": 500 },
+      { "id_alimento": "028", "cantidad": 200 },
+      { "id_alimento": "015", "cantidad": 170 },
+      { "id_alimento": "039", "cantidad": 200 },
+      {"id_alimento":  "066", "cantidad":30 }
+    ]
+  },
+"022": {
+    "id_plato": "022",
+    "alimentos": [
+      { "id_alimento": "005", "cantidad": 500 },
+      { "id_alimento": "018", "cantidad": 150 },
+      { "id_alimento": "039", "cantidad": 150 },
+      {"id_alimento":  "066", "cantidad":30 }
+    ]
+  },
+"023": {
+    "id_plato": "023",
+    "alimentos": [
+      { "id_alimento": "001", "cantidad": 360 },
+      { "id_alimento": "037", "cantidad": 800 },
+      { "id_alimento": "058", "cantidad": 80 },
+      {"id_alimento":  "066", "cantidad":30 }
+    ]
+  },
+"024": {
+    "id_plato": "024",
+    "alimentos": [
+      { "id_alimento": "001", "cantidad": 360 },
+      { "id_alimento": "013", "cantidad": 300 },
+      { "id_alimento": "062", "cantidad": 300 },
+      { "id_alimento": "039", "cantidad": 150 },
+      {"id_alimento":  "066", "cantidad":30 }
+    ]
+  },
+"025": {
+    "id_plato": "025",
+    "alimentos": [
+      { "id_alimento": "001", "cantidad": 400 },
+      { "id_alimento": "023", "cantidad": 500 },
+      { "id_alimento": "039", "cantidad": 150 },
+      { "id_alimento": "018", "cantidad": 80 },
+      { "id_alimento": "048", "cantidad": 80 },
+      {"id_alimento":  "066", "cantidad":30 }
+    ]
+  },
+"026": {
+    "id_plato": "026",
+    "alimentos": [
+      { "id_alimento": "001", "cantidad": 400 },
+      { "id_alimento": "033", "cantidad": 500 },
+      { "id_alimento": "039", "cantidad": 150 },
+      { "id_alimento": "046", "cantidad": 80 },
+      { "id_alimento": "058", "cantidad": 50 },
+      {"id_alimento":  "066", "cantidad":30 }
+    ]
+  },
+"027": {
+     "id_plato": "027",
+     "alimentos": [
+       { "id_alimento":"001", "cantidad": 400 },
+       { "id_alimento": "044", "cantidad":500},
+       { "id_alimento": "017", "cantidad": 90},
+       { "id_alimento":"060", "cantidad": 60},
+       { "id_alimento": "040", "cantidad": 50}
+    ]
+  },
+"028" : {
+     "id_plato": "028",
+     "alimentos": [
+       { "id_alimento":"004", "cantidad": 300 },
+       { "id_alimento": "062", "cantidad":400},
+       { "id_alimento": "063", "cantidad": 350},
+       { "id_alimento":"066", "cantidad": 30},
+       { "id_alimento": "014", "cantidad": 250}
+    ]
+  },
+"029" : {
+     "id_plato": "029",
+     "alimentos": [
+       { "id_alimento":"004", "cantidad": 250 },
+       { "id_alimento": "038", "cantidad":50},
+       { "id_alimento": "062", "cantidad": 100},
+       { "id_alimento":"039", "cantidad": 150},
+       { "id_alimento": "061", "cantidad":50},
+       { "id_alimento": "026", "cantidad":50},
+       { "id_alimento": "028", "cantidad":50}
+    ]
+  },
+"030" : {
+     "id_plato": "030",
+     "alimentos": [
+       { "id_alimento":"002", "cantidad": 350 },
+       { "id_alimento": "062", "cantidad":180},
+       { "id_alimento":"039", "cantidad": 150},
+       { "id_alimento": "064", "cantidad":200}
+    ]
+  },
+"031" : {
+     "id_plato": "031",
+     "alimentos": [
+       { "id_alimento":"001", "cantidad": 350 },
+       { "id_alimento": "040", "cantidad":50},
+       { "id_alimento":"039", "cantidad": 150},
+       { "id_alimento": "017", "cantidad":150},
+       { "id_alimento": "062", "cantidad":200}
+    ]
+  },
+"032" : {
+     "id_plato": "032",
+     "alimentos": [
+       { "id_alimento":"001", "cantidad": 200 },
+       { "id_alimento": "017", "cantidad":100},
+       { "id_alimento":"015", "cantidad": 180},
+       { "id_alimento": "040", "cantidad":80}
+    ]
+  },
+"033" : {
+     "id_plato": "033",
+     "alimentos": [
+       { "id_alimento":"040", "cantidad": 40 },
+       { "id_alimento": "081", "cantidad":120},
+       { "id_alimento":"072", "cantidad": 30},
+       { "id_alimento": "070", "cantidad":70},
+       { "id_alimento": "065", "cantidad":40},
+       { "id_alimento": "073", "cantidad":60},
+       { "id_alimento": "068", "cantidad":50},
+       { "id_alimento": "070", "cantidad":250}
+    ]
+  },
+"034" : {
+     "id_plato": "034",
+     "alimentos": [
+       { "id_alimento":"066", "cantidad": 25},
+       { "id_alimento": "060", "cantidad": 25},
+       { "id_alimento":"042", "cantidad": 300},
+       { "id_alimento": "040", "cantidad":50},
+       { "id_alimento": "034", "cantidad":300},
+       { "id_alimento": "062", "cantidad":350},
+       { "id_alimento": "001", "cantidad":400},
+       { "id_alimento": "076", "cantidad":90},
+       { "id_alimento": "075", "cantidad":120}
+
+    ]
+  },
+"035" : {
+     "id_plato": "035",
+     "alimentos": [
+       { "id_alimento":"013", "cantidad": 500},
+       { "id_alimento": "039", "cantidad": 200},
+       { "id_alimento":"040", "cantidad": 40},
+       { "id_alimento": "062", "cantidad":400},
+       { "id_alimento": "028", "cantidad":100},
+       { "id_alimento": "060", "cantidad":50},
+       { "id_alimento": "001", "cantidad":250},
+       { "id_alimento": "076", "cantidad":50},
+       { "id_alimento": "058", "cantidad":120}
+
+    ]
+  },
+"036" : {
+     "id_plato": "036",
+     "alimentos": [
+       { "id_alimento":"010", "cantidad": 800}
+      
+
+    ]
+  },
+"037" : {
+     "id_plato": "037",
+     "alimentos": [
+       { "id_alimento":"011", "cantidad": 1000}
+    ]
+  },
+"038" : {
+     "id_plato": "038",
+     "alimentos": [
+       { "id_alimento":"010", "cantidad": 800}
+
+    ]
+  },
+
+"039" : {
+     "id_plato": "039",
+     "alimentos": [
+       { "id_alimento":"014", "cantidad": 300},
+       { "id_alimento":"079", "cantidad": 200},
+       { "id_alimento":"036", "cantidad": 600},
+       { "id_alimento":"066", "cantidad": 100}     
+    ]
+  },
+"040" : {
+     "id_plato": "040",
+     "alimentos": [
+       { "id_alimento":"013", "cantidad": 1000},
+       { "id_alimento":"077", "cantidad": 200},
+       { "id_alimento":"076", "cantidad": 100},
+       { "id_alimento":"039", "cantidad": 100}, 
+       { "id_alimento":"014", "cantidad": 80}, 
+       { "id_alimento":"040", "cantidad": 40},
+       { "id_alimento":"066", "cantidad": 90}      
+    ]
+  },
+"041" : {
+     "id_plato": "041",
+     "alimentos": [
+       { "id_alimento":"009", "cantidad": 800},
+       { "id_alimento":"066", "cantidad": 30}     
+    ]
+  },
+
+  "042" : {
+     "id_plato": "042",
+     "alimentos": [
+       { "id_alimento":"008", "cantidad": 1000},
+       { "id_alimento":"066", "cantidad": 30}     
+    ]
+  },
+"043" : {
+     "id_plato": "043",
+     "alimentos": [
+       { "id_alimento":"008", "cantidad": 1000}    
+    ]
+  },
+"044" : {
+     "id_plato": "044",
+     "alimentos": [
+       { "id_alimento":"007", "cantidad": 700},
+       { "id_alimento":"038", "cantidad": 250},
+       { "id_alimento":"039", "cantidad": 100},
+       { "id_alimento":"040", "cantidad": 30}, 
+       { "id_alimento":"082", "cantidad": 150}, 
+       { "id_alimento":"066", "cantidad": 40},
+       { "id_alimento":"044", "cantidad": 100},
+       { "id_alimento":"076", "cantidad": 300}     
+    ]
+  },
+"045" : {
+     "id_plato": "045",
+     "alimentos": [
+       { "id_alimento":"007", "cantidad": 700},
+       { "id_alimento":"028", "cantidad": 100},
+       { "id_alimento":"027", "cantidad": 100},
+       { "id_alimento":"026", "cantidad": 100}, 
+       { "id_alimento":"038", "cantidad": 100}, 
+       { "id_alimento":"039", "cantidad": 100},
+       { "id_alimento":"040", "cantidad": 30},
+       { "id_alimento":"081", "cantidad": 80}   
+     ]  
+   
+  },
+"046" : {
+     "id_plato": "046",
+     "alimentos": [
+       { "id_alimento":"007", "cantidad": 700},
+       { "id_alimento":"004", "cantidad": 180},
+       { "id_alimento":"039", "cantidad": 150},
+       { "id_alimento":"040", "cantidad": 50}, 
+       { "id_alimento":"078", "cantidad": 200}
+       ]   
+  },
+
+"047" : {
+     "id_plato": "047",
+     "alimentos": [
+       { "id_alimento":"039", "cantidad": 200},
+       { "id_alimento":"038", "cantidad": 200},
+       { "id_alimento":"041", "cantidad": 300},
+       { "id_alimento":"062", "cantidad": 250}
+     ]     
+  },
+
+"048" : {
+     "id_plato": "048",
+     "alimentos": [
+       { "id_alimento":"049", "cantidad": 400},
+       { "id_alimento":"039", "cantidad": 150},
+       { "id_alimento":"040", "cantidad": 50}, 
+       { "id_alimento":"079", "cantidad": 150}
+     ]         
+  },
+"049" : {
+     "id_plato": "049",
+     "alimentos": [
+       { "id_alimento":"052", "cantidad": 300}        
+     ]
+  },
+"050" : {
+     "id_plato": "050",
+     "alimentos": [
+       { "id_alimento":"050", "cantidad": 300}   
+      ]
+  },
+"051" : {
+     "id_plato": "051",
+     "alimentos": [
+       { "id_alimento":"023", "cantidad": 1000},
+       { "id_alimento":"039", "cantidad": 300},
+       { "id_alimento":"040", "cantidad": 50}, 
+       { "id_alimento":"065", "cantidad": 70},
+       { "id_alimento":"066", "cantidad": 40}   
+     ]
+  },
+"052" : {
+     "id_plato": "052",
+     "alimentos": [
+       { "id_alimento":"026", "cantidad": 460},
+       { "id_alimento":"066", "cantidad": 50},
+       { "id_alimento":"039", "cantidad": 150}, 
+       { "id_alimento":"080", "cantidad": 80},
+       { "id_alimento":"032", "cantidad": 40} 
+     ]  
+  },
+
+"053" : {
+     "id_plato": "053",
+     "alimentos": [
+       { "id_alimento":"049", "cantidad": 500},
+       { "id_alimento":"043", "cantidad": 200},
+       { "id_alimento":"042", "cantidad": 350}, 
+       { "id_alimento":"040", "cantidad": 40},
+       { "id_alimento":"060", "cantidad": 60},
+       { "id_alimento":"077", "cantidad": 40}   
+      ]
+  },
+
+"054" : {
+     "id_plato": "054",
+     "alimentos": [
+       { "id_alimento":"076", "cantidad": 150},
+       { "id_alimento":"016", "cantidad": 160},
+       { "id_alimento":"017", "cantidad": 90}, 
+       { "id_alimento":"038", "cantidad": 200},
+       { "id_alimento":"037", "cantidad": 200},
+       { "id_alimento":"039", "cantidad": 100},
+       { "id_alimento":"040", "cantidad": 20},
+       { "id_alimento":"077", "cantidad": 30} 
+     ]  
+  },
+"055" : {
+     "id_plato": "055",
+     "alimentos": [
+       { "id_alimento":"044", "cantidad": 500},
+       { "id_alimento":"038", "cantidad": 150},
+       { "id_alimento":"039", "cantidad": 100}, 
+       { "id_alimento":"077", "cantidad": 30} 
+      ]  
+  },
+"056" : {
+     "id_plato": "056",
+     "alimentos": [
+       { "id_alimento":"019", "cantidad": 800},
+       { "id_alimento":"040", "cantidad": 50},
+       { "id_alimento":"077", "cantidad": 30} 
+      ]  
+  },
+
+"057" : {
+     "id_plato": "057",
+     "alimentos": [
+       { "id_alimento":"020", "cantidad": 800}, 
+       { "id_alimento":"077", "cantidad": 30} 
+      ]  
+  }
+ }
+}

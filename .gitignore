@@ -6,6 +6,8 @@
 /out-tsc
 /bazel-out
 
+# Ignorar el archivo de credenciales
+db/serviceAccountKey.json
 # Node
 /node_modules
 npm-debug.log

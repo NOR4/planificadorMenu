@@ -1,3 +1,7 @@
-<p>main works!</p>
+<!-- <p>main works!</p>
 
-<full-calendar [options]="calendarOptions"></full-calendar>
+<full-calendar [options]="calendarOptions"></full-calendar> -->
+<h1> Lista de platos:</h1>
+<ul>
+    <li *ngFor="let plato of platos">{{ plato.nombre }}</li>
+</ul>
