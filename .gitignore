@@ -8,6 +8,8 @@
 
 # Ignorar el archivo de credenciales
 db/serviceAccountKey.json
+src/environments/environment.ts
+
 # Node
 /node_modules
 npm-debug.log
