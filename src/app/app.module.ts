@@ -4,38 +4,32 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainComponent } from './components/main/main.component';
 import { FullCalendarModule } from '@fullcalendar/angular';
+import { FormsModule } from '@angular/forms';
 
 // Configuración manual de Firebase
 import { provideFirebaseApp,initializeApp } from '@angular/fire/app';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
-import { getDatabase, provideDatabase } from '@angular/fire/database';
-
 import { environment } from '../environments/environment';
+import { MenuConfigComponent } from './components/menu-config/menu-config.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
+    MenuConfigComponent,
+    LoginComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FullCalendarModule
-    // provideFirebaseApp(()=> initializeApp(environment.firebaseConfig)),
-    // provideFirestore (()=> getFirestore()),
-    // provideDatabase(()=>getDatabase()),
-
+    FullCalendarModule,
+    FormsModule
   ],
   providers: [
-    {
-      provide: 'FirebaseApp',
-      useFactory: () => initializeApp(environment.firebase),
-    },
-    {
-      provide: 'Firestore',
-      useFactory: (app: any) => getFirestore(app),
-      deps: ['FirebaseApp'],
-    },
+    provideFirebaseApp(()=> initializeApp(environment.firebase)),
+    provideFirestore (()=> getFirestore())
   ],
   bootstrap: [AppComponent],
 })

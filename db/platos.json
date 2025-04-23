@@ -1,59 +1,545 @@
-{ "platos": {
-  "001": { "nombre": "Crema de zanahoria calabaza y aguacate", "id_categoria": 9 },
-  "002": { "nombre": "Crema de boniato y coco", "id_categoria": 9 },
-  "003": { "nombre": "Crema de brócoli y maíz", "id_categoria": 9 },
-  "004": { "nombre": "Crema de calabaza y pera con piñones", "id_categoria": 9 },
-  "005": { "nombre": "Crema de zanahorias Jupiter", "id_categoria": 9 },
-  "006": { "nombre": "Crema Dasil", "id_categoria": 9 },
-  "007": { "nombre": "Crema de manzana, aguacate y lima", "id_categoria": 9 },
-  "008": { "nombre": "Crema de manzana y trompetas de la muerte", "id_categoria": 9 },
-  "009": { "nombre": "Crema de brócoli y lentejas rojas", "id_categoria": 9 },
-  "011": { "nombre": "Crema de alcachofas y espinacas", "id_categoria": 9 },
-  "012": { "nombre": "Crema de puerros, patata y pera al azafrán", "id_categoria": 9 },
-  "013": { "nombre": "Sopa de lenteja roja Impronta", "id_categoria": 9 },
-  "014": { "nombre": "Gazpacho", "id_categoria": 9 },
-  "015": { "nombre": "Garbanzos con coliflor, cebolla y boniato", "id_categoria": 3 },
-  "016": { "nombre": "Judías blancas con berenjena y pimiento rojo", "id_categoria": 3 },
-  "017": { "nombre": "Lentejas con verduras Dasil", "id_categoria": 3 },
-  "18": { "nombre": "Garbanzos con berenjena, pimientos y cebolla", "id_categoria": 3 },
-  "19": { "nombre": "Guiso criollo express de judías y aguacate", "id_categoria": 3 },
-  "20": { "nombre": "Garbanzos ligeros El Comidista", "id_categoria": 3 },
-  "21": { "nombre": "Garbanzos con sardinas en escabeche y calabaza", "id_categoria": 3 },
-  "22": { "nombre": "Garbanzos con mejillones", "id_categoria": 3 },
-  "23": { "nombre": "Spaghetti con crema de berenjena y limón", "id_categoria": 1 },
-  "24": { "nombre": "Spaghetti bolognese", "id_categoria": 1 },
-  "25": { "nombre": "Macarrones al pesto de calabaza, piñones y pistachos El Comidista", "id_categoria": 1 },
-  "26": { "nombre": "Pasta con alcachofas y pesto de nueces El Comidista", "id_categoria": 1 },
-  "27": { "nombre": "Pasta con tomates cherry y mantequilla de anchoas El Comidista", "id_categoria": 1 },
-  "28": { "nombre": "Arroz a la cubana", "id_categoria": 2 },
-  "29": { "nombre": "Arroz con verduras El Comidista La Zorra", "id_categoria": 2 },
-  "30": { "nombre": "Macarrones con chorizo", "id_categoria": 1 },
-  "31": { "nombre": "Pasta puttanesca", "id_categoria": 1 },
-  "32": { "nombre": "Pasta con sardinas, anchoas y ajo asado", "id_categoria": 1 },
-  "33": { "nombre": "Fideos con salsa de cacahuete sichuan mumien El Comidista", "id_categoria": 1 },
-  "34": { "nombre": "Pasta con setas y espinacas", "id_categoria": 1 },
-  "35": { "nombre": "Lasagna", "id_categoria": 1 },
-  "36": { "nombre": "Solomillo de cerdo", "id_categoria": 10 },
-  "37": { "nombre": "Chuletas de cerdo", "id_categoria": 10 },
-  "38": { "nombre": "Lomo de cerdo", "id_categoria": 10 },
-  "39": { "nombre": "Huevos rotos con jamón", "id_categoria": 11 },
-  "40": { "nombre": "Filetes rusos", "id_categoria": 5 },
-  "41": { "nombre": "Pechugas", "id_categoria": 4 },
-  "42": { "nombre": "Contramuslos", "id_categoria": 4 },
-  "43": { "nombre": "Pollo asado", "id_categoria": 4 },
-  "44": { "nombre": "Fajitas con pollo", "id_categoria": 4 },
-  "45": { "nombre": "Pollo con verduras y salsa china", "id_categoria": 4 },
-  "46": { "nombre": "Pollo al curry con arroz", "id_categoria": 4 },
-  "47": { "nombre": "Pisto Dasil", "id_categoria": 7 },
-  "48": { "nombre": "Guisantes Dasil", "id_categoria": 7 },
-  "49": { "nombre": "Heura", "id_categoria": 7 },
-  "50": { "nombre": "Seitan", "id_categoria": 7 },
-  "51": { "nombre": "Calabazas y cebollas asadas con tahini y avena", "id_categoria": 7 },
-  "52": { "nombre": "Ensalada de brócoli, pistacho y dátiles", "id_categoria": 7 },
-  "53": { "nombre": "Sartén de guisantes, trigueros y champiñones", "id_categoria": 7 },
-  "54": { "nombre": "Tostas de atún o anchoa y escalibada", "id_categoria": 7 },
-  "55": { "nombre": "Ensalada de tomates, pimiento rojo y cebolla", "id_categoria": 13 },
-  "56": { "nombre": "Merluza en salsa verde", "id_categoria": 6 },
-  "57": { "nombre": "Lubina al horno", "id_categoria": 6 }
- }
-}
+[
+    {
+      "nombre": "Crema de zanahoria calabaza y aguacate",
+      "categoria": "Cremas de verdura",
+      "ingredientes": [
+        { "alimento": "Zanahoria", "cantidad": 400 },
+        { "alimento": "Calabaza", "cantidad": 300 },
+        { "alimento": "Aguacate", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Crema de boniato y coco",
+      "categoria": "Cremas de verdura",
+      "ingredientes": [
+        { "alimento": "Boniato", "cantidad": 400 },
+        { "alimento": "Coco", "cantidad": 200 },
+        { "alimento": "Leche de coco", "cantidad": 30 }
+      ]
+    },
+    {
+      "nombre": "Crema de brócoli y maíz",
+      "categoria": "Cremas de verdura",
+      "ingredientes": [
+        { "alimento": "Brócoli", "cantidad": 600 },
+        { "alimento": "Maíz", "cantidad": 300 },
+        { "alimento": "Leche de coco", "cantidad": 30 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Leche", "cantidad": 100 }
+      ]
+    },
+    {
+      "nombre": "Crema de calabaza y pera con piñones",
+      "categoria": "Cremas de verdura",
+      "ingredientes": [
+        { "alimento": "Calabaza", "cantidad": 400 },
+        { "alimento": "Pera", "cantidad": 300 },
+        { "alimento": "Piñones", "cantidad": 100 },
+        { "alimento": "Aceite de Oliva", "cantidad": 30 }
+      ]
+    },
+    {
+      "nombre": "Crema de manzana, aguacate y lima",
+      "categoria": "Cremas de verdura",
+      "ingredientes": [
+        { "alimento": "Aguacate", "cantidad": 450 },
+        { "alimento": "Manzana", "cantidad": 250 },
+        { "alimento": "Yogur Griego", "cantidad": 250 },
+        { "alimento": "Piñones", "cantidad": 30 },
+        { "alimento": "Lima", "cantidad": 80 }
+      ]
+    },
+    {
+      "nombre": "Crema de manzana y trompetas de la muerte",
+      "categoria": "Cremas de verdura",
+      "ingredientes": [
+        { "alimento": "Manzana", "cantidad": 500 },
+        { "alimento": "Trompetas de la Muerte", "cantidad": 300 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Yogur Griego", "cantidad": 150 },
+        { "alimento": "Avellanas", "cantidad": 100 }
+      ]
+    },
+    {
+      "nombre": "Crema de brócoli y lentejas rojas",
+      "categoria": "Cremas de verdura",
+      "ingredientes": [
+        { "alimento": "Brócoli", "cantidad": 250 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Lentejas", "cantidad": 200 },
+        { "alimento": "Puerros", "cantidad": 150 },
+        { "alimento": "Queso crema", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Crema de alcachofas y espinacas",
+      "categoria": "Cremas de verdura",
+      "ingredientes": [
+        { "alimento": "Alcachofas", "cantidad": 600 },
+        { "alimento": "Espinacas", "cantidad": 300 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Nata líquida", "cantidad": 150 },
+        { "alimento": "Parmesano", "cantidad": 150 }
+      ]
+    },
+    {
+      "nombre": "Crema de puerros, patata y pera al azafrán",
+      "categoria": "Cremas de verdura",
+      "ingredientes": [
+        { "alimento": "Mantequilla", "cantidad": 15 },
+        { "alimento": "Puerros", "cantidad": 350 },
+        { "alimento": "Patata", "cantidad": 400 },
+        { "alimento": "Pera", "cantidad": 200 },
+        { "alimento": "Yogur", "cantidad": 100 },
+        { "alimento": "Azafrán", "cantidad": 20 }
+      ]
+    },
+{
+      "nombre": "Gazpacho",
+      "categoria": "Cremas de verdura",
+      "ingredientes": [
+        { "alimento": "Tomates", "cantidad": 700 },
+        { "alimento": "Pimiento Rojo", "cantidad": 150 },
+        { "alimento": "Cebolla", "cantidad": 150 }
+      ]
+    },
+    {
+      "nombre": "Garbanzos con coliflor, cebolla y boniato",
+      "categoria": "Legumbres",
+      "ingredientes": [
+        { "alimento": "Coliflor", "cantidad": 400 },
+        { "alimento": "Garbanzos", "cantidad": 400 },
+        { "alimento": "Boniato", "cantidad": 600 },
+        { "alimento": "Cebolla", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Judías blancas con berenjena y pimiento rojo",
+      "categoria": "Legumbres",
+      "ingredientes": [
+        { "alimento": "Judías Blancas", "cantidad": 400 },
+        { "alimento": "Berenjena", "cantidad": 300 },
+        { "alimento": "Pimiento Rojo", "cantidad": 200 },
+        { "alimento": "Cebolla", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Garbanzos con berenjena, pimientos y cebolla",
+      "categoria": "Legumbres",
+      "ingredientes": [
+        { "alimento": "Garbanzos", "cantidad": 400 },
+        { "alimento": "Pimiento Rojo", "cantidad": 200 },
+        { "alimento": "Cebolla", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Guiso criollo express de judías y aguacate",
+      "categoria": "Legumbres",
+      "ingredientes": [
+        { "alimento": "Judías Blancas", "cantidad": 500 },
+        { "alimento": "Aguacate", "cantidad": 200 },
+        { "alimento": "Cebolla", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Garbanzos ligeros El Comidista",
+      "categoria": "Legumbres",
+      "ingredientes": [
+        { "alimento": "Garbanzos", "cantidad": 600 },
+        { "alimento": "Calabaza", "cantidad": 200 },
+        { "alimento": "Espinacas", "cantidad": 200 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Ajo", "cantidad": 50 },
+        { "alimento": "Tomates", "cantidad": 300 }
+      ]
+    },
+    {
+      "nombre": "Garbanzos con sardinas en escabeche y calabaza",
+      "categoria": "Legumbres",
+      "ingredientes": [
+        { "alimento": "Garbanzos", "cantidad": 500 },
+        { "alimento": "Calabaza", "cantidad": 200 },
+        { "alimento": "Cebolla", "cantidad": 150 },
+        { "alimento": "Sardinas en Escabeche", "cantidad": 170 },
+        { "alimento": "Atún", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Garbanzos con mejillones",
+      "categoria": "Legumbres",
+      "ingredientes": [
+        { "alimento": "Garbanzos", "cantidad": 500 },
+        { "alimento": "Cebolla", "cantidad": 150 },
+        { "alimento": "Mejillones", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Spaguetti con crema berenjena y limón",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Spaghetti", "cantidad": 360 },
+        { "alimento": "Berenjena", "cantidad": 800 },
+        { "alimento": "Ajo", "cantidad": 30 },
+        { "alimento": "Parmesano", "cantidad": 80 }
+      ]
+    },
+    {
+      "nombre": "Spaguetti boloñesa",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Spaghetti", "cantidad": 360 },
+        { "alimento": "Tomate frito", "cantidad": 360 },
+        { "alimento": "Parmesano", "cantidad": 80 },
+        { "alimento": "Cebolla", "cantidad": 150 },
+        { "alimento": "Chorizo", "cantidad": 300 }
+      ]
+    },
+{
+      "nombre": "Macarrones al pesto de calabaza, piñones y pistachos",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Macarrones", "cantidad": 400 },
+        { "alimento": "Calabaza", "cantidad": 500 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Piñones", "cantidad": 50 },
+        { "alimento": "Pistacho", "cantidad": 50 }
+      ]
+    },
+    {
+      "nombre": "Pasta con alcachofas y pesto de nueces",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Macarrones", "cantidad": 400 },
+        { "alimento": "Alcachofas", "cantidad": 600 },
+        { "alimento": "Pimiento Rojo", "cantidad": 40 },
+        { "alimento": "Parmesano", "cantidad": 50 },
+        { "alimento": "Ajo", "cantidad": 20 }
+      ]
+    },
+    {
+      "nombre": "Pasta con tomate cherry y mantequilla de anchoas",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Macarrones", "cantidad": 360 },
+        { "alimento": "Tomates", "cantidad": 500 },
+        { "alimento": "Anchoas", "cantidad": 90 },
+        { "alimento": "Mantequilla", "cantidad": 60 },
+        { "alimento": "Ajo", "cantidad": 50 }
+      ]
+    },
+    {
+      "nombre": "Arroz a la cubana",
+      "categoria": "Arroces",
+      "ingredientes": [
+        { "alimento": "Arroz", "cantidad": 300 },
+        { "alimento": "Plátano", "cantidad": 450 },
+        { "alimento": "Chorizo", "cantidad": 400 },
+        { "alimento": "Huevos", "cantidad": 3 }
+      ]
+    },
+    {
+      "nombre": "Arroz con verduras El Comidista La Zorra",
+      "categoria": "Arroces",
+      "ingredientes": [
+        { "alimento": "Guisantes", "cantidad": 50 },
+        { "alimento": "Brócoli", "cantidad": 50 },
+        { "alimento": "Coliflor", "cantidad": 50 },
+        { "alimento": "Garbanzos", "cantidad": 50 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Chorizo", "cantidad": 100 },
+        { "alimento": "Pimiento Rojo", "cantidad": 50 },
+        { "alimento": "Arroz", "cantidad": 250 }
+      ]
+    },
+    {
+      "nombre": "Macarrones con chorizo",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Macarrones", "cantidad": 350 },
+        { "alimento": "Tomate frito", "cantidad": 180 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Chorizo", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Pasta puttanesca",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Macarrones", "cantidad": 200 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Ajo", "cantidad": 50 },
+        { "alimento": "Tomates", "cantidad": 150 },
+        { "alimento": "Chorizo", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Pasta con anchoas, sardinas y ajo asado",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Macarrones", "cantidad": 200 },
+        { "alimento": "Tomates", "cantidad": 100 },
+        { "alimento": "Sardinas en Escabeche", "cantidad": 180 },
+        { "alimento": "Ajo", "cantidad": 80 }
+      ]
+    },
+    {
+      "nombre": "Fideos con salsa de cacahuete Sichuan",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Fideos udon", "cantidad": 40 },
+        { "alimento": "Salsa de cacahuete", "cantidad": 120 },
+        { "alimento": "Berenjena", "cantidad": 83 },
+        { "alimento": "Salsa de soja", "cantidad": 70 },
+        { "alimento": "Cacahuete", "cantidad": 40 },
+        { "alimento": "Aceite de oliva", "cantidad": 60 },
+        { "alimento": "Chorizo", "cantidad": 50 },
+        { "alimento": "Aceite de girasol", "cantidad": 250 }
+      ]
+    },
+{
+      "nombre": "Pasta con setas y espinacas",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Leche", "cantidad": 25 },
+        { "alimento": "Mantequilla", "cantidad": 25 },
+        { "alimento": "Puerros", "cantidad": 300 },
+        { "alimento": "Ajo", "cantidad": 50 },
+        { "alimento": "Maíz", "cantidad": 200 },
+        { "alimento": "Chorizo", "cantidad": 500 },
+        { "alimento": "Spaghetti", "cantidad": 500 },
+        { "alimento": "Pan", "cantidad": 90 },
+        { "alimento": "Mozzarella", "cantidad": 125 }
+      ]
+    },
+    {
+      "nombre": "Lasagna",
+      "categoria": "Pastas",
+      "ingredientes": [
+        { "alimento": "Filete de ternera", "cantidad": 500 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Ajo", "cantidad": 30 },
+        { "alimento": "Chorizo", "cantidad": 400 },
+        { "alimento": "Calabaza", "cantidad": 100 },
+        { "alimento": "Mantequilla", "cantidad": 50 },
+        { "alimento": "Pan", "cantidad": 50 },
+        { "alimento": "Huevo", "cantidad": 500 },
+        { "alimento": "Spaghetti", "cantidad": 250 },
+        { "alimento": "Parmesano", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Solomillo de cerdo",
+      "categoria": "Cerdo",
+      "ingredientes": [
+        { "alimento": "Lomo", "cantidad": 800 }
+      ]
+    },
+    {
+      "nombre": "Chuletas de cerdo",
+      "categoria": "Cerdo",
+      "ingredientes": [
+        { "alimento": "Chuletas", "cantidad": 1000 }
+      ]
+    },
+    {
+      "nombre": "Lomo de cerdo",
+      "categoria": "Cerdo",
+      "ingredientes": [
+        { "alimento": "Lomo", "cantidad": 800 }
+      ]
+    },
+    {
+      "nombre": "Huevos rotos con jamón",
+      "categoria": "Huevos",
+      "ingredientes": [
+        { "alimento": "Huevos", "cantidad": 8 },
+        { "alimento": "Jamón", "cantidad": 200 },
+        { "alimento": "Patata", "cantidad": 600 }
+      ]
+    },
+    {
+      "nombre": "Filetes rusos",
+      "categoria": "Carnes",
+      "ingredientes": [
+        { "alimento": "Filete de ternera", "cantidad": 1000 },
+        { "alimento": "Huevo", "cantidad": 200 },
+        { "alimento": "Cebolla", "cantidad": 100 },
+        { "alimento": "Ajo", "cantidad": 50 },
+        { "alimento": "Pan", "cantidad": 100 },
+        { "alimento": "Huevos", "cantidad": 2 }
+      ]
+    },
+    {
+      "nombre": "Pechugas de pollo",
+      "categoria": "Aves y pollo",
+      "ingredientes": [
+        { "alimento": "Pechuga", "cantidad": 800 }
+      ]
+    },
+    {
+      "nombre": "Contramuslos de pollo",
+      "categoria": "Aves y pollo",
+      "ingredientes": [
+        { "alimento": "Contramuslos de Pollo", "cantidad": 1000 }
+      ]
+    },
+    {
+      "nombre": "Pollo asado",
+      "categoria": "Aves y pollo",
+      "ingredientes": [
+        { "alimento": "Contramuslos de Pollo", "cantidad": 1500 }
+      ]
+    },
+    {
+      "nombre": "Fajitas de pollo",
+      "categoria": "Aves y pollo",
+      "ingredientes": [
+        { "alimento": "Pechuga", "cantidad": 700 },
+        { "alimento": "Cebolla", "cantidad": 250 },
+        { "alimento": "Pimiento Rojo", "cantidad": 200 },
+        { "alimento": "Chorizo", "cantidad": 100 },
+        { "alimento": "Pan", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Pollo con verduras y salsa china",
+      "categoria": "Aves y pollo",
+      "ingredientes": [
+        { "alimento": "Pechuga", "cantidad": 700 },
+        { "alimento": "Coliflor", "cantidad": 100 },
+        { "alimento": "Brócoli", "cantidad": 100 },
+        { "alimento": "Lubina", "cantidad": 150 },
+        { "alimento": "Pimiento Rojo", "cantidad": 150 },
+        { "alimento": "Ajo", "cantidad": 40 },
+        { "alimento": "Cebolla", "cantidad": 100 },
+        { "alimento": "Puerros", "cantidad": 150 },
+        { "alimento": "Pesto", "cantidad": 80 },
+        { "alimento": "Leche", "cantidad": 50 }
+      ]
+    },
+    {
+      "nombre": "Pollo al curry con arroz",
+      "categoria": "Aves y pollo",
+      "ingredientes": [
+        { "alimento": "Arroz", "cantidad": 180 },
+        { "alimento": "Pechuga", "cantidad": 600 },
+        { "alimento": "Cebolla", "cantidad": 150 },
+        { "alimento": "Ajo", "cantidad": 70 },
+        { "alimento": "Leche de coco", "cantidad": 200 }
+      ]
+    },
+    {
+      "nombre": "Pisto",
+      "categoria": "Vegetales",
+      "ingredientes": [
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Pimiento Rojo", "cantidad": 400 },
+        { "alimento": "Espinacas", "cantidad": 300 },
+        { "alimento": "Leche", "cantidad": 60 },
+        { "alimento": "Chorizo", "cantidad": 300 }
+      ]
+    },
+    {
+      "nombre": "Guisantes con jamón",
+      "categoria": "Vegetales",
+      "ingredientes": [
+        { "alimento": "Guisantes", "cantidad": 300 },
+        { "alimento": "Cebolla", "cantidad": 100 },
+        { "alimento": "Jamón", "cantidad": 150 },
+        { "alimento": "Ajo", "cantidad": 50 }
+      ]
+    },
+    {
+      "nombre": "Heura",
+      "categoria": "Otros",
+      "ingredientes": [
+        { "alimento": "Heura", "cantidad": 300 }
+      ]
+    },
+    {
+      "nombre": "Seitan",
+      "categoria": "Otros",
+      "ingredientes": [
+        { "alimento": "Seitan", "cantidad": 300 }
+      ]
+    },
+    {
+      "nombre": "Calabazas y cebollas asadas con tahini y avellanas",
+      "categoria": "Vegetales",
+      "ingredientes": [
+        { "alimento": "Calabaza", "cantidad": 1000 },
+        { "alimento": "Cebolla", "cantidad": 300 },
+        { "alimento": "Ajo", "cantidad": 50 },
+        { "alimento": "Tahini", "cantidad": 60 },
+        { "alimento": "Ajo", "cantidad": 20 },
+        { "alimento": "Aceite de Oliva", "cantidad": 40 }
+      ]
+    },
+    {
+      "nombre": "Ensalada de brócoli, pistacho y dátiles",
+      "categoria": "Vegetales",
+      "ingredientes": [
+        { "alimento": "Brócoli", "cantidad": 460 },
+        { "alimento": "Aceite de Oliva", "cantidad": 50 },
+        { "alimento": "Cebolla", "cantidad": 140 },
+        { "alimento": "Dátiles", "cantidad": 80 },
+        { "alimento": "Pistacho", "cantidad": 100 },
+        { "alimento": "Piñones", "cantidad": 30 }
+      ]
+    },
+    {
+      "nombre": "Sartén de guisantes, trigueros y champiñones",
+      "categoria": "Vegetales",
+      "ingredientes": [
+        { "alimento": "Guisantes", "cantidad": 500 },
+        { "alimento": "Setas", "cantidad": 200 },
+        { "alimento": "Puerros", "cantidad": 300 },
+        { "alimento": "Ajo", "cantidad": 60 },
+        { "alimento": "Mantequilla", "cantidad": 60 },
+        { "alimento": "Aceite de Oliva", "cantidad": 40 }
+      ]
+    },
+    {
+      "nombre": "Tostas de atún, anchoa y escalibada",
+      "categoria": "Acompañamientos",
+      "ingredientes": [
+        { "alimento": "Pan", "cantidad": 150 },
+        { "alimento": "Anchoas", "cantidad": 160 },
+        { "alimento": "Pimiento Rojo", "cantidad": 90 },
+        { "alimento": "Cebolla", "cantidad": 200 },
+        { "alimento": "Berenjena", "cantidad": 200 },
+        { "alimento": "Ajo", "cantidad": 100 },
+        { "alimento": "Ajo", "cantidad": 10 },
+        { "alimento": "Aceite de Oliva", "cantidad": 30 }
+      ]
+    },
+    {
+      "nombre": "Ensalada de tomates, pimiento rojo y cebolla",
+      "categoria": "Acompañamientos veganos",
+      "ingredientes": [
+        { "alimento": "Tomates", "cantidad": 500 },
+        { "alimento": "Pimiento Rojo", "cantidad": 150 },
+        { "alimento": "Cebolla", "cantidad": 100 },
+        { "alimento": "Aceite de Oliva", "cantidad": 30 }
+      ]
+    },
+    {
+      "nombre": "Merluza en salsa verde",
+      "categoria": "Pescados",
+      "ingredientes": [
+        { "alimento": "Merluza", "cantidad": 800 },
+        { "alimento": "Ajo", "cantidad": 10 },
+        { "alimento": "Aceite de Oliva", "cantidad": 30 }
+      ]
+    },
+    {
+      "nombre": "Lubina al horno",
+      "categoria": "Pescados",
+      "ingredientes": [
+        { "alimento": "Lubina", "cantidad": 800 },
+        { "alimento": "Aceite de Oliva", "cantidad": 30 }
+      ]
+    }
+  ]
+
+

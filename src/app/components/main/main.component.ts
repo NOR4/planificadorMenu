@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { CalendarOptions } from '@fullcalendar/core';
 import dayGridPlugin from '@fullcalendar/daygrid'; // Importa el plugin necesario
 import { PlatoService } from '../../services/platoservice.service';
-import {getDatabase, ref, set} from 'firebase/database';
+import { Plato } from '../../model/plato.model';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-main',
@@ -10,7 +11,7 @@ import {getDatabase, ref, set} from 'firebase/database';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
-  platos: any[] = [];
+  recetas : Plato[] = [];
     calendarOptions: CalendarOptions = {
     initialView: 'dayGridMonth', // Vista del calendario
     plugins: [dayGridPlugin], // Registra el plugin aquí
@@ -28,9 +29,13 @@ export class MainComponent {
   constructor(private platoService: PlatoService) {  }
 
   ngOnInit(): void {
-    this.platoService.fetchPlatos().then(data => {
-      this.platos = data;
-      console.log(this.platos);
+    this.platoService.fetchRecetas().subscribe({
+      next: (data) => {
+        console.log("Datos recibidos:", data);
+        this.recetas = data;
+        console.log(this.recetas);
+      },
+      error: (error) => {console.error('Error al mostrar los platos', error);},
     });
   }
 }

@@ -1,31 +1,23 @@
 import { Injectable } from '@angular/core';
-;import { initializeApp } from  'firebase/app'
-import { getFirestore, collection, getDocs } from '@angular/fire/firestore';
+import { Firestore, collection, collectionData } from '@angular/fire/firestore';
+import { inject } from '@angular/core';
 import { Observable } from 'rxjs';
-import { environment } from '../../environments/environment';
-import { firebaseApp$ } from '@angular/fire/app';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class PlatoService {
 
-  private db: any;
+  private firestore: Firestore;
 
   constructor() {
-    //inicializa la firebase app
-    const app = initializeApp(environment.firebase);
-    this.db = getFirestore(app);
-    
+    // Inyecta Firestore
+    this.firestore = inject(Firestore);
   }
 
-  async fetchPlatos(): Promise<any[]> {
-    const platosCollection = collection(this.db, 'platos');
-    const snapshot = await getDocs(platosCollection);
-    const platos = snapshot.docs.map(doc => doc.data());
-    console.log(platos);
-    return platos;
+  // Método para obtener los datos de la colección "platos"
+  fetchRecetas(): Observable<any[]> {
+    const recetasCollection = collection(this.firestore, 'recetas');
+    return collectionData(recetasCollection);  // Devuelve un Observable
   }
-
-  
 }

@@ -12,8 +12,7 @@ const db = admin.firestore();
 // Lista de archivos JSON y sus respectivas colecciones
 const filesToImport = [
   { file: "alimento.json", collection: "alimentos" },
-  { file: "platos.json", collection: "platos" },
-  { file: "platosalimento.json", collection: "platosalimentos" },
+  { file: "platos.json", collection: "recetas" },
 ];
 
 
