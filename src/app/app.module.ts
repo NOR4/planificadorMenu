@@ -10,6 +10,9 @@ import { FormsModule } from '@angular/forms';
 import { provideFirebaseApp,initializeApp } from '@angular/fire/app';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
+import { provideAuth, getAuth } from '@angular/fire/auth';
+
+//Componentes
 import { MenuConfigComponent } from './components/menu-config/menu-config.component';
 import { LoginComponent } from './components/login/login.component';
 
@@ -25,7 +28,8 @@ import { LoginComponent } from './components/login/login.component';
     BrowserModule,
     AppRoutingModule,
     FullCalendarModule,
-    FormsModule
+    FormsModule,
+    // provideAuth(() => getAuth())
   ],
   providers: [
     provideFirebaseApp(()=> initializeApp(environment.firebase)),

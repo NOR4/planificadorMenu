@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Firestore, collection, collectionData } from '@angular/fire/firestore';
+import { Firestore, collection, collectionData, query, where } from '@angular/fire/firestore';
 import { inject } from '@angular/core';
 import { Observable } from 'rxjs';
 
@@ -20,4 +20,10 @@ export class PlatoService {
     const recetasCollection = collection(this.firestore, 'recetas');
     return collectionData(recetasCollection);  // Devuelve un Observable
   }
+
+  fetchRecetasPorCategoria(categoria: string): Observable<any[]> {
+    const recetasCollection = collection(this.firestore, 'recetas');
+    const q = query(recetasCollection, where('categoria', '==', categoria));
+    return collectionData(q, { idField: 'id' });
+}
 }
